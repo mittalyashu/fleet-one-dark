@@ -1,7 +1,7 @@
-rootProject.name = "my-theme-plugin-project"
+rootProject.name = "One Dark Theme"
 
-include(":my-theme-plugin")
-include(":my-theme-plugin:frontendImpl")
+include(":plugin")
+include(":plugin:frontendImpl")
 
 pluginManagement {
     repositories {
